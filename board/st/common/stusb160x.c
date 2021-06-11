@@ -9,6 +9,7 @@
 #include <common.h>
 #include <dm.h>
 #include <i2c.h>
+#include <linux/bitops.h>
 
 /* REGISTER */
 #define STUSB160X_CC_CONNECTION_STATUS		0x0E
